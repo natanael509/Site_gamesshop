@@ -1,0 +1,172 @@
+/*geral*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header,
+section h2,
+section h3,
+button{
+    font-family: "Bungee", sans-serif;
+    width: normal;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    width: normal;
+}
+
+
+/*.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bungee-regular {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}*/
+
+
+
+
+/*cabeçalho*/
+header{
+    padding: 16px 0;
+    background-color: #182c61;
+    color: white;
+}
+header h1{
+    font-size: 50px;
+    margin-left: 16px;
+    font-weight: normal;
+}
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 15px;
+}
+header nav li a{
+    color: white;
+    text-decoration: none;
+}
+header nav li a:hover{
+    text-decoration: underline;
+}
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+/*imagens*/
+.brand-list img{
+    width: 120px;
+    margin-left: 16px;
+}
+.play img{
+    width: 50px;
+}
+.brand-list li{
+    display: inline;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+
+/*seçoes*/
+section .container{
+    align-items: flex-start;
+}
+section{
+    margin-left: 16px;
+    margin-top: 16px;
+    font-weight: normal;
+    color: #182c61;
+}
+section h2, h3{
+    font-weight: normal;
+    color: #182c61;
+}
+#sobre h2{
+    margin-left: 16px;
+}
+
+#contato .container{
+    display: block;
+}
+.redes-contatos{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+textarea{
+    width: 320px;
+    padding: 8px;
+    display: block;
+    margin-bottom: 8px;
+    resize: none;
+}
+
+textarea{
+    margin: none;
+    height: 250px;
+}
+.social-links li,
+img {
+    display: inline;
+    margin-top: 1px;
+
+}
+.social-links img{
+    display: inline;
+    margin-left:  0px;
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+form button{
+    background-color: #182c61;
+    color: white;
+    height: 50px;
+    width: 320px;
+    margin: none;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #253e83;
+}
+input:focus, textarea:focus{
+    outline-color: #182c61;
+}
+
+p{
+    margin-left: 16px;
+    margin-top: 8px;
+}
+#contato p {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+
+footer p {
+    color: aliceblue;    
+}
+footer{
+    background-color: #182c61;
+    padding: 16px 0;
+    margin-top: 8px;
+}
